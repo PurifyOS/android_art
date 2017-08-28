@@ -258,7 +258,7 @@ class JitOptions {
     profile_saver_options_.SetEnabled(save_profiling_info);
   }
   void SetJitAtFirstUse() {
-    use_jit_compilation_ = true;
+    use_jit_compilation_ = false;
     compile_threshold_ = 0;
   }
 
